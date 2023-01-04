@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;700&display=swap");
+body {
+  font-family: "Cormorant Garamond", serif;
+  color: #fff;
+}
+.footer_footer {
+  background-color: #696969;
+}
+.footer_social {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2573da;
+  width: 100%;
+  height: 100%;
+  padding: 1.4em;
+  margin-bottom: 0;
+}
+.footer_social i {
+  font-size: 20px;
+  margin: 5px;
+}
+.footer_images {
+  width: 100%;
+  display: flex;
+}
+.footer_images img {
+  width: 20%;
+  height: 200px;
+}
+.footer_about {
+  display: flex;
+}
+.footer_about img {
+  width: 24%;
+  height: 150px;
+  margin: 45px;
+}
+.footer_text_about {
+  margin-top: 45px;
+}
+.footer_text_about a {
+  color: #fff;
+  display: block;
+  text-decoration: underline;
+  margin-top: 15px;
+  font-size: 16px;
+}
+.footer_mail {
+  margin-top: 45px;
+}
+.footer_mail span {
+  display: block;
+}
+.footer_input {
+  width: 60%;
+  height: 34px;
+  background-color: #696969;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 10px 0;
+}
+.footer_input:hover {
+  border: 3px solid #fff;
+}
+.footer_input::placeholder {
+  color: rgb(218, 213, 213) !important;
+  opacity: 1;
+  padding-left: 20px;
+}
+.footer_btn {
+  display: block;
+  background-color: #2573da;
+  color: #fff;
+  border: none;
+  width: 60%;
+  height: 34px;
+}
+.footer_btn:hover {
+  background-color: rgb(137, 165, 226);
+  transition: 1s;
+  cursor: pointer;
+}
