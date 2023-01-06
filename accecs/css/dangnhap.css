@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 /* BASIC */
 
-html {
-  background-image: url(../../img/banner.webp);
-}
+
 
 body {
   font-family: "Poppins", sans-serif;
   height: 100vh;
+  background-image: url(../../img/banner.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -31,6 +33,8 @@ h2 {
 
 
 /* STRUCTURE */
+
+
 
 .wrapper {
   display: flex;
@@ -69,7 +73,28 @@ h2 {
 
 /* TABS */
 
-h2.inactive {
+.logo{
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  font-weight: 400;
+  color: #022130;
+  margin: 20px 0 0 40px;
+}
+
+.logo:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: #022130;
+}
+
+a.inactive {
+  color: #cccccc;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display:inline-block;
+  margin: 40px 8px 10px 8px; 
   color: #cccccc;
 }
 
@@ -244,6 +269,7 @@ input[type=text]:placeholder {
 
 .underlineHover:hover {
   color: #0d0d0d;
+  text-decoration: none;
 }
 
 .underlineHover:hover:after{
